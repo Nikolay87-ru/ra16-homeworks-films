@@ -5,13 +5,13 @@ const filmsCards = [
     name: 'Супермен',
     price: '1299',
     genre: 'экшн',
-    img: './public/superman.jpg',
+    img: '/superman.jpg', 
   },
   {
     name: 'Хороший, плохой, злой',
     price: '899',
     genre: 'вестерн',
-    img: './public/eastwood.jpg',
+    img: '/eastwood.jpg', 
   },
 ];
 
