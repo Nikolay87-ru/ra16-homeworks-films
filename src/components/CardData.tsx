@@ -1,22 +1,24 @@
 import { Cards } from './Cards';
 
-const filmsCards = [
+const cardData = [
   {
     name: 'Супермен',
     price: '1299',
     genre: 'экшн',
     img: '/superman.jpg', 
+    rating: 4,
   },
   {
     name: 'Хороший, плохой, злой',
     price: '899',
     genre: 'вестерн',
     img: '/eastwood.jpg', 
+    rating: 5,
   },
 ];
 
 export const useCards = () => {
   return {
-    filmsCards: <Cards cards={filmsCards} />,
+    cardData: <Cards cards={cardData} />,
   };
 };

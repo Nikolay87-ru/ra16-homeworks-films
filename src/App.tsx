@@ -1,7 +1,7 @@
-import { useCards } from './components/Page';
+import { useCards } from './components/CardData';
 
 export const App = () => {
-  const { filmsCards } = useCards();
+  const { cardData } = useCards();
 
-  return <div className="container bg-gray-500 mx-auto px-4 py-16">{filmsCards}</div>;
+  return <div className="container bg-gray-500 mx-auto px-4 py-16">{cardData}</div>;
 };
